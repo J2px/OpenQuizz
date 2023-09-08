@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21BF1C3A2A9C7D300058FDB4 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BF1C392A9C7D300058FDB4 /* QuestionView.swift */; };
 		21FB74812A949CCB00A85D3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FB74802A949CCB00A85D3E /* AppDelegate.swift */; };
 		21FB74832A949CCB00A85D3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FB74822A949CCB00A85D3E /* SceneDelegate.swift */; };
 		21FB74852A949CCB00A85D3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FB74842A949CCB00A85D3E /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21BF1C392A9C7D300058FDB4 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		21FB747D2A949CCA00A85D3E /* OpenQuizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenQuizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FB74802A949CCB00A85D3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21FB74822A949CCB00A85D3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				21FB74862A949CCB00A85D3E /* Main.storyboard */,
+				21BF1C392A9C7D300058FDB4 /* QuestionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				21FB74852A949CCB00A85D3E /* ViewController.swift in Sources */,
 				21FB749E2A94E56400A85D3E /* Game.swift in Sources */,
 				21FB749C2A94DE6400A85D3E /* Question.swift in Sources */,
+				21BF1C3A2A9C7D300058FDB4 /* QuestionView.swift in Sources */,
 				21FB74812A949CCB00A85D3E /* AppDelegate.swift in Sources */,
 				21FB74832A949CCB00A85D3E /* SceneDelegate.swift in Sources */,
 				21FB74A02A94E5DD00A85D3E /* QuestionManager.swift in Sources */,
@@ -339,7 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OpenQuizz/Info.plist;
+				INFOPLIST_FILE = "OpenQuizz/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -367,7 +371,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OpenQuizz/Info.plist;
+				INFOPLIST_FILE = "OpenQuizz/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
